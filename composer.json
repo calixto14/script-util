@@ -1,0 +1,16 @@
+{
+    "autoload":{
+        "psr-4":{
+            "Connections\\": "Connections/",
+            "Scripts\\" : "Scripts/",
+            "Classes\\": "classes/",
+            "Vendor\\Namespace\\" : ""
+        },
+        "classmap": [
+            "classes"
+        ]
+    },
+    "require": {
+        "illuminate/database": "^9.17"
+    }
+}
